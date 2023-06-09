@@ -1,0 +1,53 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Poppins:wght@300&display=swap');
+
+  body {
+    background-color: #ccd5ae;
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    justify-content: space-evenly;
+    color: #344e41;
+
+  }
+
+  h1 span {
+    color: white;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .input-container input {
+    flex-grow: 2;
+    margin-right: 10px;
+    padding: 5px;
+  }
+
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .todo-item span {
+    flex-grow: 2;
+  }
+
+  .todo-item button {
+    margin-left: 5px;
+    background-color: #344e41;
+    color: white;
+    size:100px;
+  }
